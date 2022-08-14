@@ -1,35 +1,35 @@
 package ru.netology.poster;
 
-public class PosterManager {
+import ru.netology.repository.PosterRepository;
 
-    private Film[] films = new Film[0];
+public class PosterManager {
+    private PosterRepository repo;
     private int countFilm = 10;
 
-    public PosterManager() {
+
+    public PosterManager(PosterRepository repo) {
+        this.repo = repo;
     }
 
-    public PosterManager(int countFilm) {
+    public PosterManager(int countFilm, PosterRepository repo) {
         if (countFilm >= 0) {
             this.countFilm = countFilm;
         }
+        this.repo = repo;
     }
 
     public void addNewFilm(Film movie) {
-        Film[] tmp = new Film[films.length + 1];
-        for (int i = 0; i < films.length; i++) {
-            tmp[i] = films[i];
-        }
-        tmp[tmp.length - 1] = movie;
-        films = tmp;
+        repo.save(movie);
     }
 
     public Film[] findAll() {
-        return films;
+        return repo.findAll();
     }
 
     public Film[] findLast() {
 
         int resultLength;
+        Film[] films = repo.findAll();
         if (countFilm < films.length) {
             resultLength = countFilm;
         } else {
