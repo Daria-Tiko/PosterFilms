@@ -6,7 +6,7 @@ public class PosterRepository {
     private Film[] films = new Film[0];
 
     public void save(Film movie) {
-        Film[] tmp = new Film[films.length +1];
+        Film[] tmp = new Film[films.length + 1];
         for (int i = 0; i < films.length; i++) {
             tmp[i] = films[i];
         }

@@ -32,7 +32,7 @@ public class Film {
         this.filmGenre = filmGenre;
     }
 
-    public  void setId() {
+    public void setId() {
         this.id = id;
     }
 }
