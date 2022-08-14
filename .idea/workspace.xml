@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="55780930-70ca-416f-919b-321dcb85074d" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/netology/repository/PosterRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ru/netology/poster/Film.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/netology/poster/Film.java" afterDir="false" />
@@ -28,6 +28,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -47,10 +52,10 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_directory_selection": "C:/QA_41/Java/Java OOP/PosterManager/src/test/java"
+    "last_directory_selection": "C:/QA_41/Java/Java OOP/PosterManager/src/main/java/ru/netology"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.PosterManagerTest.shouldFinLastOneFilms">
+  <component name="RunManager" selected="JUnit.PosterManagerTest.shouldFindAll">
     <configuration name="PosterManagerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="PosterManager" />
       <extension name="coverage">
@@ -132,11 +137,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.PosterManagerTest.shouldFindAll" />
         <item itemvalue="JUnit.PosterManagerTest.shouldFinLastOneFilms" />
         <item itemvalue="JUnit.PosterManagerTest.shouldFinLastEightFilms" />
         <item itemvalue="JUnit.PosterManagerTest" />
         <item itemvalue="JUnit.PosterManagerTest.shouldFinLastAll" />
-        <item itemvalue="JUnit.PosterManagerTest.shouldFindAll" />
       </list>
     </recent_temporary>
   </component>
@@ -149,6 +154,41 @@
       <option name="presentableId" value="Default" />
       <updated>1660300002571</updated>
     </task>
+    <task id="LOCAL-00001" summary="Add Poster">
+      <created>1660483603534</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1660483603534</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="layers" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Add Poster" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add Poster" />
   </component>
 </project>
